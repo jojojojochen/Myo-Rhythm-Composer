@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="ss">
+<head>
+	<meta charset="UTF-8">
+	<title>EngHack2015</title>
+	<link rel="shortcut icon" href="TrebleClef.png">
+	<link rel="stylesheet" href="css/sstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/html2canvas.js"></script>
+</head>
+<body>
+	<h1 id="TITLE">Myo Rhythm Composer (Drum Kit Edition)</h1>
+	<p style="text-align:center;">Press ENTER to start recording</p>
+	<div class="LuaLink">
+		<input type="text" id="inputTitle" placeholder="Title of the music"  ng-model = "title"></input>
+		<!--<button onclick="InputTitle()" id="button">Submit</button>-->
+		<br><br>
+		<input type="text" id="inputComposerName" placeholder="Name of the composer"  ng-model = "name"></input>
+		<!--<button download = "staff.png" onclick="InputComposerName()" id="button">Submit</button>-->
+		</br>
+		</br>
+		<button id = "button" onclick="screenShot()">Save and Download!</button>
+
+
+
+
+	</div>
+	<div class = "container">
+
+	</div>
+	<div id = "screen">
+		<h1 id="title">{{title}}</h1>
+		<h2 id="composerName">{{name}}</h2>
+		<div id = "scores">
+			<div class = "bigRow" id = "bigRow1">
+				<div id = "row1">
+				</div>
+				<div id = "row2">
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<script type = "text/javascript" src = "js/angular.min.js"></script>
+	<script type = "text/javascript" src = "js/app.js"></script>
+	<script type ="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src = "js/control.js"></script>
+	<script src="js/input.js"></script>
+
+</body>
+</html>
+	

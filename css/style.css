@@ -1,0 +1,135 @@
+#drum {
+    width:10%;
+
+}
+
+#bo {
+    width:10%;
+
+}
+
+#screen {
+    width : 1000px;
+    /*height : 1280px;*/
+}
+
+
+
+.bigRow {
+    width : 800px;
+    height : 100px;
+    background-image: url(../images/row2.png);
+
+
+    margin:auto;
+    display:block;
+
+
+}
+#screen {
+    /*position:relative;*/
+    /*left:200px;*/
+    margin:auto;
+    display:block;
+}
+
+.note4_1 {
+    width:42px;
+    height:26px;
+    position: relative;
+    top:5px;
+    left:50px;
+    background-image: url(../images/note4_1.png);
+    display:inline-block;
+
+}
+
+.note4_2 {
+    width:42px;
+    height:26px;
+    position: relative;
+    top:24px;
+    left:50px;
+    background-image: url(../images/note4_2.png);
+    display:inline-block;
+
+}
+
+.note8_1 {
+    width:41px;
+    height:26px;
+    position: relative;
+    top:5px;
+    left:50px;
+    background-image: url(../images/note8dual1.png);
+    display:inline-block;
+
+}
+
+.note8_2 {
+     width:41px;
+     height:26px;
+     position: relative;
+     top:24px;
+     left:50px;
+     background-image: url(../images/note8dual2.png);
+     display:inline-block;
+
+ }
+
+
+
+.stop4_1 {
+      width:42px;
+      height:26px;
+      position: relative;
+      top:5px;
+      left:50px;
+      background-image: url(../images/stop4.png);
+      display:inline-block;
+
+  }
+
+.stop4_2 {
+    width:42px;
+    height:26px;
+    position: relative;
+    top:24px;
+    left:50px;
+    background-image: url(../images/stop4.png);
+    display:inline-block;
+
+}
+
+/*.stop8_1 {*/
+    /*width:21px;*/
+    /*height:26px;*/
+    /*position: relative;*/
+    /*top:5px;*/
+    /*left:50px;*/
+    /*background-image: url(stop8.gif);*/
+    /*display:inline-block;*/
+
+/*}*/
+
+/*.stop8_2 {*/
+    /*width:21px;*/
+    /*height:26px;*/
+    /*position: relative;*/
+    /*top:24px;*/
+    /*left:50px;*/
+    /*background-image: url(stop8.gif);*/
+    /*display:inline-block;*/
+
+/*}*/
+
+#row1 {
+    position:relative;
+    left:18px;
+}
+
+#row2 {
+    position:relative;
+    left:18px;
+}
+
